@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+dlib = "*"
+imutils = "*"
+imageio = '>2.5.0'
+jupyter = "*"
+keras = "*"
+numpy = '>1.16.1'
+opencv-contrib-python = "*"
+opencv-python = "*"
+pandas = "*"
+pybalu = {editable = true,git = "https://github.com/fdominguezclaro/pybalu.git"}
+scikit-image = '>0.14.2'
+scikit-learn = '>0.20.2'
+seaborn = "*"
+sklearn = "*"
+tensorflow = "*"
+
+[requires]
+python_version = "3.7"
