@@ -1,5 +1,7 @@
+# Tarda alrededor de 1 minuto en ser ejecutado
+
 import cv2
-# pip3 install opencv-python==3.3.0.10 opencv-contrib-python==3.3.0.10
+#pip3 install opencv-python==3.3.0.10 opencv-contrib-python==3.3.0.10
 import os
 import numpy as np
 from operator import itemgetter
